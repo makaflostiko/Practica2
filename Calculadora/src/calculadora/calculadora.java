@@ -3,11 +3,13 @@ package calculadora;
 public class calculadora {
 
 	
+	// ATRIBUTOS
 	
 	private int num1;
 	private int num2;
 	
 	
+	// CONSTRUCTORES
 	
 	public calculadora(){
 		
@@ -22,4 +24,26 @@ public class calculadora {
 		
 	}
 	
+	// METODOS
+	
+	
+	public int suma(){
+		
+		return num1+num2;
+	}
+	
+	public int resta(){
+		
+		return num1 - num2;
+	}
+	
+	public int multiplicacion(){
+		
+		return num1 * num2;
+	}
+	
+	public double division(){
+		
+		return (double)num1 / num2;
+	}
 }
