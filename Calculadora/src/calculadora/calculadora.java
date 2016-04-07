@@ -46,4 +46,11 @@ public class calculadora {
 		
 		return (double)num1 / num2;
 	}
+	
+	void imprimir(){
+		System.out.println("La suma de "+num1+" y "+num2+" es "+suma());
+		System.out.println("La resta de "+num1+" y "+num2+" es "+resta());
+		System.out.println("La multiplicación de "+num1+" y "+num2+" es "+multiplicacion());
+		System.out.println("La división de "+num1+" y "+num2+" es "+division());
+	}
 }
